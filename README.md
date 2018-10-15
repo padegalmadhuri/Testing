@@ -10,6 +10,8 @@ How to run the Project
 
 if ypu want to open this directly check the below link
 
+ https://padegalmadhuri.github.io/Testing/.
+
 Technologies Used
 
 •	Jasmine 

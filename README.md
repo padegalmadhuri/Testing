@@ -8,9 +8,6 @@ How to run the Project
 
 •	Open index.html in your browser.
 
-if ypu want to open this directly check the below link
-
- https://padegalmadhuri.github.io/Testing/.
 
 Technologies Used
 

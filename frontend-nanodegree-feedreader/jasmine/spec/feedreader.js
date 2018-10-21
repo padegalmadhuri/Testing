@@ -61,7 +61,7 @@
         });
 
         it('loadFeed function is called and completes its work with at least a single .entry element within the .feed container', function() {
-            expect($('.entry').length).not.toBe(0);
+            expect($('feed.entry').length).not.toBe(0);
         });
     });
 

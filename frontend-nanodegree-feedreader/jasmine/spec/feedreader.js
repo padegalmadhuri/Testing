@@ -61,7 +61,7 @@
         });
 
         it('loadFeed function is called and completes its work with at least a single .entry element within the .feed container', function() {
-            expect($('feed.entry').length).not.toBe(0);
+            expect($('.feed.entry').length).not.toBe(0);
         });
     });
 
@@ -70,7 +70,7 @@
          
         beforeEach(function(callback) {
             loadFeed(0);
-            prevTopPost = $('.entry').eq(0).html();
+            prevTopPost = $('.feed.entry').eq(0).html();
 
             loadFeed(1, callback);
         });

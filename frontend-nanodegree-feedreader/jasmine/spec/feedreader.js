@@ -18,9 +18,9 @@
         });
 
         it('have URLs', function() {
-            for(i = 0; i < allFeeds.length; i++) {
-                expect(allFeeds[i].url).toBeDefined();
-                expect(allFeeds[i].url.length).not.toBe(0);
+            allFeeds.forEcah(function(feed){
+             expect(feed.url).toBedefined();
+             expect(feed.url.length).not.toBe(0);
             }
         });
 
@@ -28,9 +28,9 @@
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.*/
          it('have names', function() {
-            for(i = 0; i < allFeeds.length; i++) {
-                expect(allFeeds[i].name).toBeDefined();
-                expect(allFeeds[i].name.length).not.toBe(0);
+            allFeeds.forEach(function(feed){
+             expect(feed.name)toBeDefined();
+             expect(feed.name.length).not.toBe(0);
             }
         });
     });
@@ -53,7 +53,7 @@
         });
     });
         //test that ensures when the loadFeed
-         * function is called and completes its work, 
+         // function is called and completes its work, 
          describe('Initial Entries', function() {
 
          	 beforeEach(function(callback) {
